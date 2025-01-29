@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magyar Informatika Napja</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Főoldal</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false"
+            >Dropdown</a
+          >
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://njszt.hu/hu/MIN2022">Hivatalos Weboldal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Disabled</a>
+        </li>
+      </ul>
+    </header>
+
+    <main class="container">
+      <h1>Magyar Informatika Napja</h1>
+      <p>
+        2022 óta minden év január 21-én ünnepeljük a
+        <strong>Magyar Informatika Napját</strong>, amely fontos mérföldkő a
+        magyar számítástechnika történetében. Ezen a napon, 1959-ben jelentek
+        meg az első hivatalos hírek az M-3 számítógép működéséről, amely az első
+        magyar fejlesztésű, Neumann-elvű elektronikus számítógép volt. Az M-3
+        létrehozása hatalmas tudományos és technológiai előrelépést jelentett
+        Magyarország számára, és hozzájárult a hazai informatika fejlődéséhez.
+      </p>
+
+      <h2>A magyar informatika története</h2>
+      <p>
+        A számítástechnika fejlődése Magyarországon szorosan kapcsolódik a
+        nemzetközi trendekhez, de számos kiemelkedő hazai szakember is
+        hozzájárult az iparág fejlődéséhez. Az M-3 számítógépet 1957 és 1959
+        között fejlesztették ki, és 1960-ban helyezték üzembe. Bár teljesítménye
+        és kapacitása mai szemmel nézve elavultnak tűnhet, abban az időben ez
+        hatalmas lépés volt a magyar tudomány számára.
+      </p>
+
+      <p>
+        Az 1960-as és 1970-es években Magyarországon további fejlesztések
+        történtek, többek között a TPA számítógépcsalád megalkotása, amely a
+        hazai iparban és kutatásban is széles körben elterjedt. Az informatika
+        fejlődése szempontjából kiemelkedő jelentőségű volt az egyetemi és
+        kutatóintézeti munka, amely megalapozta a mai modern IT-szektort.
+      </p>
+
+      <h2>Miért fontos a Magyar Informatika Napja?</h2>
+      <p>
+        A digitális technológia napjaink egyik legmeghatározóbb tényezője, amely
+        áthatja az életünk minden területét. A Magyar Informatika Napja
+        lehetőséget biztosít arra, hogy megemlékezzünk azokról a szakemberekről,
+        akik hozzájárultak a hazai informatika fejlődéséhez. Az esemény célja,
+        hogy felhívja a figyelmet a magyar informatikai örökségre, valamint arra
+        ösztönözze a fiatalokat, hogy érdeklődjenek a programozás, a mesterséges
+        intelligencia és más IT-területek iránt.
+      </p>
+
+      <h2>Magyar Informatika Napja Konferencia</h2>
+
+      <p>
+        A Magyar Informatika Napja alkalmából minden évben szakmai konferenciát
+        szervezünk, ahol előadások és workshopok keretében bemutatjuk az
+        informatika legújabb eredményeit, valamint lehetőséget biztosítunk a
+        résztvevők számára, hogy kapcsolatokat építsenek az iparágban. A
+        rendezvényre csak 18 éven felüliek jelentkezhetnek, és lehetőség van
+        több jegy együttes foglalására is.
+      </p>
+
+      <h2>Konferencia jelentkezési lap</h2>
+
+      <form id="regisztracio">
+        <label for="name">Név:</label>
+        <input type="text" id="name" required />
+        <br />
+        <br />
+
+        <label for="age">Életkor:</label>
+        <input type="number" id="age" min="18" required />
+        <br />
+        <br />
+
+        <label for="tickets">Jegyek száma:</label>
+        <input type="number" id="tickets" min="1" required />
+        <br />
+        <br />
+
+        <button type="button" onclick="">Jelentkezés</button>
+      </form>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
